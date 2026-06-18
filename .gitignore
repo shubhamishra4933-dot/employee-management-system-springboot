@@ -1,0 +1,48 @@
+
+# JAVA / SPRING BOOT
+target/
+*.jar
+*.war
+*.ear
+
+# MAVEN
+.mvn/
+mvnw
+mvnw.cmd
+
+# IDEs
+.idea/
+*.iml
+*.iws
+*.ipr
+
+.vscode/
+
+# Eclipse / STS
+.classpath
+.project
+.settings/
+
+# LOG FILES
+*.log
+logs/
+
+# OS FILES
+.DS_Store
+Thumbs.db
+
+# ENVIRONMENT FILES
+.env
+
+# Hide sensitive config
+src/main/resources/application.properties
+
+# DATABASE FILES (if any local export)
+*.sql~
+*.db
+*.sqlite
+
+# PACKAGE FILES
+*.zip
+*.tar
+*.gz
