@@ -1,0 +1,174 @@
+/* =========================
+   GLOBAL STYLES
+========================= */
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* =========================
+   CONTAINERS
+========================= */
+.container {
+    margin-top: 30px;
+}
+
+/* =========================
+   CARD DESIGN
+========================= */
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.08);
+}
+
+/* =========================
+   LOGIN PAGE
+========================= */
+.login-box {
+    width: 380px;
+    margin: auto;
+    margin-top: 10%;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 4px 20px rgba(0,0,0,0.15);
+}
+
+.login-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* =========================
+   SIDEBAR
+========================= */
+.sidebar {
+    height: 100vh;
+    width: 220px;
+    position: fixed;
+    background: #343a40;
+    padding-top: 20px;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    background: #495057;
+    padding-left: 25px;
+}
+
+/* =========================
+   MAIN CONTENT
+========================= */
+.content {
+    margin-left: 230px;
+    padding: 20px;
+}
+
+/* =========================
+   DASHBOARD CARDS
+========================= */
+.card-box {
+    padding: 20px;
+    border-radius: 12px;
+    color: white;
+    text-align: center;
+}
+
+.bg-blue {
+    background: linear-gradient(135deg, #007bff, #00c6ff);
+}
+
+.bg-green {
+    background: linear-gradient(135deg, #28a745, #5efc82);
+}
+
+.bg-orange {
+    background: linear-gradient(135deg, #fd7e14, #ffb347);
+}
+
+.bg-red {
+    background: linear-gradient(135deg, #dc3545, #ff6b6b);
+}
+
+/* =========================
+   TABLE STYLING
+========================= */
+table {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table th {
+    background: #007bff;
+    color: white;
+    text-align: center;
+}
+
+table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+.btn {
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.btn-primary {
+    background: #007bff;
+}
+
+.btn-warning {
+    color: white;
+}
+
+/* =========================
+   PAGINATION
+========================= */
+.pagination .page-item.active .page-link {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+/* =========================
+   INPUTS
+========================= */
+input, select {
+    border-radius: 8px !important;
+    padding: 10px;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .content {
+        margin-left: 0;
+    }
+
+    .login-box {
+        width: 90%;
+    }
+}
